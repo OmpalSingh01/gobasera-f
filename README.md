@@ -1,4 +1,6 @@
-📢 GoBasera Announcements App
+
+ <img width="128" height="128" alt="1754336440472-removebg-preview" src="https://github.com/user-attachments/assets/410a1b3d-24d1-48fa-88e8-87c0a02c419e" /> GoBasera 
+📢Announcements App
 
 🚀 Live Demo: [GoBasera Announcementl](https://gobasera-f.vercel.app/)
 
