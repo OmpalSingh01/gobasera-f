@@ -1,5 +1,6 @@
 
- <img width="128" height="128" alt="1754336440472-removebg-preview" src="https://github.com/user-attachments/assets/410a1b3d-24d1-48fa-88e8-87c0a02c419e" /> GoBasera 
+<img width="53" height="51" alt="1754336440472-removebg-preview" src="https://github.com/user-attachments/assets/ac4f3dcd-e0e0-48a3-95ec-f42bdeb6b763" /> GoBasera 
+
 📢Announcements App
 
 🚀 Live Demo: [GoBasera Announcementl](https://gobasera-f.vercel.app/)
