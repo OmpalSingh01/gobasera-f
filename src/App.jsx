@@ -7,7 +7,10 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_URL = "http://localhost:4000/announcements";
+  // const API_URL = "http://localhost:4000/announcements";
+  const API_URL = "https://gobasera-b.onrender.com/announcements";
+
+
 
   // Fetch announcements on load
   useEffect(() => {
@@ -80,15 +83,15 @@ export default function App() {
             placeholder="Title (required)"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            style={{ width: "100%", padding: "0.5rem", marginBottom: "0.5rem" }}
+            style={{ width: "70%", padding: "0.5rem", marginBottom: "0.5rem" }}
           />
-        </div>
+        </div> <br />
         <div>
           <textarea
             placeholder="Description (optional)"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            style={{ width: "100%", padding: "0.5rem", marginBottom: "0.5rem" }}
+            style={{ width: "70%", padding: "0.5rem", marginBottom: "0.5rem" }}
           />
         </div>
         <button
