@@ -1,4 +1,5 @@
 📢 GoBasera Announcements App
+
 🚀 Live Demo: [GoBasera Announcementl](https://gobasera-f.vercel.app/)
 
 A simple React + NestJS application to manage announcements for GoBasera. Users can add announcements, mark them as closed, and view timestamps for creation and closure, with a responsive design optimized for all devices.
