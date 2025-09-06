@@ -1,12 +1,129 @@
-# React + Vite
+📢 GoBasera Announcements App
+🚀 Live Demo: [GoBasera Announcementl](https://gobasera-f.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + NestJS application to manage announcements for GoBasera. Users can add announcements, mark them as closed, and view timestamps for creation and closure, with a responsive design optimized for all devices.
 
-Currently, two official plugins are available:
+🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React.js, JavaScript, CSS
 
-## Expanding the ESLint configuration
+Backend: NestJS, Node.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+API: REST API for announcements
+
+Database: In-memory (for simplicity, can be extended to MongoDB / PostgreSQL)
+
+Styling: Inline CSS (with professional form and card design)
+
+✨ Features
+
+Add announcements with title and optional description.
+
+View all announcements in a feed/list.
+
+Mark announcements as closed with a button.
+
+Timestamps:
+
+Created At – when the announcement was added
+
+Closed At – when the announcement was marked as closed
+
+Professional UI with GoBasera branding (logo + company name).
+
+Responsive design for better usability.
+
+📂 Project Structure
+Frontend (React)
+src/
+  App.jsx          # Main React component with form and announcement feed
+  index.js         # Entry point
+
+Backend (NestJS)
+src/
+  announcements/
+    announcements.controller.ts  # Handles API routes
+    announcements.service.ts     # Logic for managing announcements
+  app.module.ts                  # Root module
+  main.ts                        # Entry point, enables CORS
+
+🚀 Getting Started
+Prerequisites
+
+Node.js >= 18
+
+npm or yarn
+
+Backend
+
+Navigate to backend folder:
+
+cd backend
+
+
+Install dependencies:
+
+npm install
+
+
+Start server:
+
+npm run start
+
+
+Backend will run on: http://localhost:4000
+
+Frontend
+
+Navigate to frontend folder:
+
+cd frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start React app:
+
+npm run dev
+
+
+Open in browser: http://localhost:5173
+
+🔗 API Endpoints
+Method	Endpoint	Description
+GET	/announcements	Fetch all announcements
+POST	/announcements	Create a new announcement
+PATCH	/announcements/:id	Update status (active / closed)
+📸 Screenshots
+
+<img width="1920" height="1200" alt="Screenshot 2025-09-07 021850" src="https://github.com/user-attachments/assets/bfe72a55-8dea-4f40-9e41-ac44f4997923" />
+
+📝 Notes
+
+Currently using in-memory storage for announcements (data resets on server restart).
+
+Can be extended to MongoDB / PostgreSQL for persistent storage.
+
+Styling is inline CSS, can be migrated to Tailwind CSS or styled-components for scalability.
+
+💡 Future Improvements
+
+Search / filter announcements
+
+Sort announcements by date or status
+
+Persistent database integration
+
+User authentication (admin & general users)
+
+
+📄 License
+
+This project is licensed under the MIT License – feel free to use and modify.
+
+👨‍💻 Maintainer
+
+Ompal Singh (Mohit) 📧 [mohitsingh.2626452@gmail.com] 🔗 https://gobasera-f.vercel.app/
