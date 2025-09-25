@@ -1,134 +1,140 @@
+# <img width="31" height="30" alt="GoBasera Logo" src="https://github.com/user-attachments/assets/5b2b96d0-bb6f-4e03-b9f3-b841bd3cfc8c" /> GoBasera – Announcements App  
 
- <img width="31" height="30" alt="1754336440472-removebg-preview" src="https://github.com/user-attachments/assets/5b2b96d0-bb6f-4e03-b9f3-b841bd3cfc8c" /> GoBasera 
+[![React](https://img.shields.io/badge/Frontend-React.js-61DBFB?logo=react&logoColor=white)](https://react.dev/)
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/VSCode-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+[![NestJS](https://img.shields.io/badge/Backend-NestJS-E0234E?logo=nestjs&logoColor=white)](https://nestjs.com/)  
+[![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green?logo=vercel)](https://gobasera-f.vercel.app/)  
+[![CI/CD](https://github.com/ompal-singh/GoBasera-Announcements/actions/workflows/ci.yml/badge.svg)](https://github.com/ompal-singh/GoBasera-Announcements/actions)
 
-📢Announcements App
+
+📢 A simple yet powerful React + NestJS application to manage announcements for GoBasera.
+Easily add announcements, mark them as closed, and track timestamps – all with a clean, responsive UI.
+
+# 🌍 Live Demo
+  <a href="[https://gobasera-f.vercel.app/](https://gobasera-f.vercel.app/)/" target="_blank">
+    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
 
 
-🚀 Live Demo: [GoBasera Announcementl](https://gobasera-f.vercel.app/)
+---
 
-A simple React + NestJS application to manage announcements for GoBasera. Users can add announcements, mark them as closed, and view timestamps for creation and closure, with a responsive design optimized for all devices.
+# ✨ Features
 
-🛠️ Technologies Used
+✅ Add announcements with title & optional description
+✅ View all announcements in a feed/list view
+✅ Mark announcements as closed with one click
+✅ Timestamps for creation & closure
+✅ Professional UI with GoBasera branding (logo + name)
+✅ Responsive design for mobile & desktop
 
-Frontend: React.js, JavaScript, CSS
+---
 
-Backend: NestJS, Node.js
+# 🛠️ Tech Stack
 
-API: REST API for announcements
+Frontend: React.js, JavaScript, Tailwind CSS
+Backend: NestJS (Node.js)
+API: REST API
+Database: In-memory (extendable to MongoDB / PostgreSQL)
+Styling: Inline CSS (can be migrated to TailwindCSS / styled-components)
 
-Database: In-memory (for simplicity, can be extended to MongoDB / PostgreSQL)
+---
 
-Styling: Inline CSS (with professional form and card design)
+# 📂 Project Structure
 
-✨ Features
+```
+GoBasera-Announcements
+│
+├── frontend/              # React frontend
+│   ├── src/
+│   │   ├── App.jsx        # Main React component
+│   │   └── index.js       # Entry point
+│
+├── backend/               # NestJS backend
+│   ├── src/
+│   │   ├── announcements/
+│   │   │   ├── announcements.controller.ts
+│   │   │   └── announcements.service.ts
+│   │   ├── app.module.ts
+│   │   └── main.ts
+```
 
-Add announcements with title and optional description.
+---
 
-View all announcements in a feed/list.
+# 🔧 Getting Started
 
-Mark announcements as closed with a button.
-
-Timestamps:
-
-Created At – when the announcement was added
-
-Closed At – when the announcement was marked as closed
-
-Professional UI with GoBasera branding (logo + company name).
-
-Responsive design for better usability.
-
-📂 Project Structure
-Frontend (React)
-src/
-  App.jsx          # Main React component with form and announcement feed
-  index.js         # Entry point
-
-Backend (NestJS)
-src/
-  announcements/
-    announcements.controller.ts  # Handles API routes
-    announcements.service.ts     # Logic for managing announcements
-  app.module.ts                  # Root module
-  main.ts                        # Entry point, enables CORS
-
-🚀 Getting Started
-Prerequisites
-
+## 📌 Prerequisites
+```
 Node.js >= 18
 
-npm or yarn
+npm / yarn
+```
+---
 
-Backend
+## ▶️ Backend Setup
 
-Navigate to backend folder:
-
+```
+# Navigate to backend folder
 cd backend
 
-
-Install dependencies:
-
+# Install dependencies
 npm install
 
-
-Start server:
-
+# Start server
 npm run start
+```
 
+Server runs on: http://localhost:4000
 
-Backend will run on: http://localhost:4000
+---
 
-Frontend
+## 💻 Frontend Setup
 
-Navigate to frontend folder:
-
+```
+# Navigate to frontend folder
 cd frontend
 
-
-Install dependencies:
-
+# Install dependencies
 npm install
 
-
-Start React app:
-
+# Start React app
 npm run dev
+```
 
+Frontend runs on: http://localhost:5173
 
-Open in browser: http://localhost:5173
+---
 
-🔗 API Endpoints
-Method	Endpoint	Description
-GET	/announcements	Fetch all announcements
-POST	/announcements	Create a new announcement
-PATCH	/announcements/:id	Update status (active / closed)
-📸 Screenshots
+# 📸 Screenshots
 
-<img width="1920" height="1200" alt="Screenshot 2025-09-07 021850" src="https://github.com/user-attachments/assets/bfe72a55-8dea-4f40-9e41-ac44f4997923" />
+🏠 Dashboard
+<img width="1920" height="1200" alt="GoBasera Screenshot" src="https://github.com/user-attachments/assets/bfe72a55-8dea-4f40-9e41-ac44f4997923" />
 
-📝 Notes
+---
 
-Currently using in-memory storage for announcements (data resets on server restart).
+# 💡 Future Improvements
 
-Can be extended to MongoDB / PostgreSQL for persistent storage.
+🔍 Search / filter announcements
+📅 Sort announcements by date or status
+💾 Persistent MongoDB / PostgreSQL storage
+🔐 User authentication (admin & general users)
+🎨 Switch to Tailwind CSS for scalable design
 
-Styling is inline CSS, can be migrated to Tailwind CSS or styled-components for scalability.
+---
 
-💡 Future Improvements
+# 📄 License
 
-Search / filter announcements
+This project is licensed under the MIT License – feel free to use, modify, and distribute.
 
-Sort announcements by date or status
+---
 
-Persistent database integration
+# 👨‍💻 Maintainer
 
-User authentication (admin & general users)
+Ompal Singh (Mohit)
+📧 mohitsingh.2626452@gmail.com
 
+🔗 GoBasera Announcements
 
-📄 License
-
-This project is licensed under the MIT License – feel free to use and modify.
-
-👨‍💻 Maintainer
-
-Ompal Singh (Mohit) 📧 [mohitsingh.2626452@gmail.com] 🔗 https://gobasera-f.vercel.app/
