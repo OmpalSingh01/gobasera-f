@@ -1,13 +1,14 @@
 <img width="31" height="30" alt="GoBasera Logo" src="https://github.com/user-attachments/assets/5b2b96d0-bb6f-4e03-b9f3-b841bd3cfc8c" /> GoBasera – Announcements App
-<p align="center"> <a href="https://react.dev/"><img src="https://img.shields.io/badge/Frontend-React.js-61DBFB?logo=react&logoColor=white&style=for-the-badge" /></a> <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/Backend-NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" /></a> <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Runtime-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" /></a> <a href="https://github.com/OmpalSingh01/gobasera-f/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" /></a> <a href="https://gobasera-f.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live-brightgreen?logo=vercel&style=for-the-badge" /></a> <a href="https://github.com/OmpalSingh01/gobasera-f/actions"><img src="https://github.com/OmpalSingh01/gobasera-f/actions/workflows/ci.yml/badge.svg" /></a> </p> <p align="center"> 📢 A simple yet powerful <b>React + NestJS</b> application to manage announcements for <b>GoBasera</b>. Easily add announcements, mark them as closed, and track timestamps – all with a clean, responsive UI. </p>
+<p align="center"> <a href="https://react.dev/"><img src="https://img.shields.io/badge/Frontend-React.js-61DBFB?logo=react&logoColor=white&style=for-the-badge" /></a> <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/Backend-NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" /></a> <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Runtime-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" /></a> <a href="https://github.com/OmpalSingh01/gobasera-f/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" /></a> <a href="https://gobasera-f.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live-brightgreen?logo=vercel&style=for-the-badge" /></a>  </p> <p align="center"> 📢 A simple yet powerful <b>React + NestJS</b> application to manage announcements for <b>GoBasera</b>. Easily add announcements, mark them as closed, and track timestamps – all with a clean, responsive UI. </p>
 
- 📢 A simple yet powerful <b>React + NestJS</b> application to manage announcements for <b>GoBasera</b>. Easily add announcements, mark them as closed, and track timestamps – all with a clean, responsive UI. </p>
+---
 
-
-🌍 Live Demo
+# 🌍 Live Demo
 <p align="center"> <a href="https://gobasera-f.vercel.app/" target="_blank"> <img src="https://img.shields.io/badge/🚀 View_Live-Demo-brightgreen?style=for-the-badge&logo=google-chrome&logoColor=white" /> </a> </p>
 
-✨ Features
+---
+
+# ✨ Features
 
 📝 Add announcements with title & description
 
@@ -21,7 +22,9 @@
 
 📱 Responsive design for mobile & desktop
 
-🛠️ Tech Stack
+---
+
+# 🛠️ Tech Stack
 
 | Layer        | Technology                                              |
 | ------------ | ------------------------------------------------------- |
@@ -31,8 +34,11 @@
 | **Database** | In-memory (extendable → MongoDB / PostgreSQL)           |
 | **Styling**  | Inline CSS (scalable → TailwindCSS / styled-components) |
 
-📂 Project Structure
+---
 
+#📂 Project Structure
+
+```
 GoBasera-Announcements
 │
 ├── frontend/              # React frontend
@@ -47,35 +53,46 @@ GoBasera-Announcements
 │   │   │   └── announcements.service.ts
 │   │   ├── app.module.ts
 │   │   └── main.ts
+```
 
+---
 
-🔧 Getting Started
-📌 Prerequisites
+# 🔧 Getting Started
 
+## 📌 Prerequisites
+
+```
 Node.js >= 18
 
 npm / yarn
+```
 
-▶️ Backend Setup
+## ▶️ Backend Setup
+```
 cd backend
 npm install
 npm run start
-
+```
 
 Server runs on 👉 http://localhost:4000
 
-💻 Frontend Setup
+## 💻 Frontend Setup
+```
 cd frontend
 npm install
 npm run dev
-
-
+```
 Frontend runs on 👉 http://localhost:5173
+
+---
 
 📸 Screenshots
 🏠 Dashboard
 <img width="1920" height="1200" alt="GoBasera Screenshot" src="https://github.com/user-attachments/assets/bfe72a55-8dea-4f40-9e41-ac44f4997923" />
-💡 Future Improvements
+
+---
+
+# 💡 Future Improvements
 
 🔍 Search / filter announcements
 
@@ -87,10 +104,12 @@ Frontend runs on 👉 http://localhost:5173
 
 🎨 Migrate to Tailwind CSS for scalable design
 
-🤝 Contributing
+---
+
+# 🤝 Contributing
 
 Contributions are welcome! 🎉
-
+```
 Fork the repo
 
 Create your feature branch → git checkout -b feature/new-feature
@@ -100,12 +119,15 @@ Commit changes → git commit -m 'Add new feature'
 Push to branch → git push origin feature/new-feature
 
 Open a Pull Request
+```
 
-📄 License
+---
+
+# 📄 License
 
 This project is licensed under the MIT License – you are free to use, modify, and distribute.
 
-👨‍💻 Maintainer
+# 👨‍💻 Maintainer
 
 Ompal Singh (Mohit)
 📧 mohitsingh.2626452@gmail.com
