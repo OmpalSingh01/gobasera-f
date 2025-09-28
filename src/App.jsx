@@ -266,7 +266,7 @@
 
 
 
-//====================================
+//==================================== GO BASERA 2.0 =================================
 
 import { useEffect, useState, useRef } from "react";
 
@@ -274,6 +274,7 @@ import { useEffect, useState, useRef } from "react";
 // const API_URL = "http://localhost:4000/announcements";
 
 const API_URL = import.meta.env.VITE_API_URL;
+
 
 
 
@@ -417,6 +418,13 @@ export default function App() {
       setError(err.message);
     }
   };
+
+ useEffect(() => {
+  const interval = setInterval(() => {
+    fetchAnnouncements(); // fetch latest from backend
+  }, 20000);
+  return () => clearInterval(interval);
+}, []); // 
 
   return (
 
