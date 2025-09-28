@@ -10,17 +10,17 @@
 
 # ✨ Features
 
-📝 Add announcements with title & description
-
-📃 View announcements in a feed/list view
-
-✅ Mark announcements as closed with one click
-
-⏱️ Automatic timestamps (created & closed)
-
-🎨 Professional UI with GoBasera branding
-
-📱 Responsive design for mobile & desktop
+- 📝 Add announcements with **title & description**  
+- 📃 View announcements in a **feed/list view**  
+- ✅ Mark announcements as **closed** with one click  
+- ⏱️ **Automatic timestamps**:
+  - `createdAt` → when announcement is added  
+  - `closedAt` → when announcement is closed  
+- ❤️ 👍 👎 **Reactions support** (like, dislike, heart) with optimistic UI updates  
+- 💬 **Add comments** to each announcement  
+- 🎨 **Professional UI** with GoBasera branding  
+- 📱 **Responsive design** for mobile and desktop  
+- 🌐 **CORS-ready** for multiple frontend deployments 
 
 ---
 
@@ -41,18 +41,24 @@
 ```
 GoBasera-Announcements
 │
-├── frontend/              # React frontend
-│   ├── src/
-│   │   ├── App.jsx        # Main React component
-│   │   └── index.js       # Entry point
+├── frontend/ # React frontend
+│ ├── src/
+│ │ ├── App.jsx # Main React component
+│ │ └── index.js # Entry point
 │
-├── backend/               # NestJS backend
-│   ├── src/
-│   │   ├── announcements/
-│   │   │   ├── announcements.controller.ts
-│   │   │   └── announcements.service.ts
-│   │   ├── app.module.ts
-│   │   └── main.ts
+├── backend/ # NestJS backend
+│ ├── src/
+│ │ ├── announcements/
+│ │ │ ├── announcements.controller.ts
+│ │ │ └── announcements.service.ts
+│ │ ├── comments/
+│ │ │ ├── comments.controller.ts
+│ │ │ └── comments.service.ts
+│ │ ├── reactions/
+│ │ │ ├── reactions.controller.ts
+│ │ │ └── reactions.service.ts
+│ │ ├── app.module.ts
+│ │ └── main.ts
 ```
 
 ---
