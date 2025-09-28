@@ -96,7 +96,10 @@ Frontend runs on 👉 http://localhost:5173
 🏠 Dashboard
 <img width="1920" height="1200" alt="GoBasera Screenshot" src="https://github.com/user-attachments/assets/bfe72a55-8dea-4f40-9e41-ac44f4997923" />
 
+🏠 Dashboard 2.O
+<img width="1920" height="1200" alt="Gobasera2.O" src="https://github.com/user-attachments/assets/3da87dc1-c900-480a-a453-2bf33da18164" />
 ---
+
 
 # 💡 Future Improvements
 
