@@ -443,7 +443,7 @@ export default function App() {
     }}
   >
     <img
-      src="https://media.licdn.com/dms/image/v2/D560BAQEV4NXSrxZtVw/company-logo_200_200/B56Zh2ma7PHUAQ-/0/1754336440472?e=1759968000&v=beta&t=FQ9LWaC0EAXaf0xOh5GPR5587GXlC4ofXYXE-U0bgVI"
+      src="https://github.com/user-attachments/assets/5b2b96d0-bb6f-4e03-b9f3-b841bd3cfc8c"
       alt="GoBasera Logo"
       style={{ width: "28px", height: "28px", objectFit: "contain" }}
     />
